@@ -16,8 +16,10 @@ void upr_to_lwr(char *str)
 }
 int main()
 {
-    char name[100] = "SHahHAJkKJKJKJ NJICnbjsdkl BHJCBds";
+    char name[100];
+    printf("Input your name: \n");
+    fgets(name, 100, stdin);
     upr_to_lwr(name);
-    printf("My name is %s \n", name);
+    printf("Your name is %s \n", name);
     return 0;
 }

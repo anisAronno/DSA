@@ -4,7 +4,7 @@ $b = [3, 2, 1];
 
 function sum($a, $b)
 {
-    $res=[];
+    $res=[0,0];
     foreach ($a as $key=>$aValue) {
         if ($aValue == $b[$key]) {
             continue;

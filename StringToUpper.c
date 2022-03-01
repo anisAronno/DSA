@@ -14,7 +14,8 @@ void lwr_to_upper(char *str)
 
 int main()
 {
-    char name[100] = "Md. Anichur Rahaman";
+    char name[100]; 
+    fgets(name, 100, stdin);
     lwr_to_upper(name);
     printf("My name is %s \n", name);
     return 0;
